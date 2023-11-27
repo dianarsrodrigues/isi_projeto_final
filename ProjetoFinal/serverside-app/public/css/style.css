@@ -1,0 +1,141 @@
+#layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 2;
+}
+
+.text-navbar {
+    padding: 20px;
+}
+
+.div-login-links {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.login-link{
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.logout {
+    color: black;
+}
+
+.card-all {
+    margin: 20px 0;
+    height: 200px;
+    width: 200px;
+}
+
+.card-album {
+    color: black;
+    text-align: center;
+}
+
+.card-album:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-link-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-overlay {
+    padding-top: 80px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: black;
+}
+
+.login-container {
+    margin-top: 100px;
+    max-width: 450px;
+    padding: 50px 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.buttons-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-regist-div {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.link-regist {
+    color: black;
+}
+
+.dashboard-buttons-div {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.dashboard-table {
+    margin-top: 50px;
+}
+
+.button-add {
+    margin: 20px 0;
+}
+
+
+.select-allusers {
+    padding: 10px;
+    border:none;
+    font-size: 18px;
+}
+
+.formulario-allusers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.procurar-allusers {
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.alert {
+    margin-top: 20px;
+}
