@@ -21,7 +21,7 @@
                     <img src="{{$album -> image ? asset('storage/' . $album->image) : asset('images/nophoto.png')}}" alt="" class="card-image">
                     <div class="card-body card-img-overlay card-album">
                         <h5 class="card-title">{{ $album->name }}</h5>
-                        <p class="card-text">{{ $album->release_at }}</p>
+                        <p class="card-text">{{date('Y', strtotime( $album->release_at))}}</p>
                     </div>
                 </div>
                 <div class="card-footer">

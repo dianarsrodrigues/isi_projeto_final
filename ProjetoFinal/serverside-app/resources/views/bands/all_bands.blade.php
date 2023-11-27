@@ -15,6 +15,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         @endif
+        <form action="" method="GET" class="formulario-allbands">
+            <div class="">
+                <input type="text" value="{{request()->query('search')}}" name="search" id="" placeholder="Procurar" class="procurar-allusers">
+                <button class="btn btn-secondary" >Procurar</button>
+            </div>
+        </form>
         <div class="row">
             @foreach ($bands as $band)
                 <div class="col-sm-2">

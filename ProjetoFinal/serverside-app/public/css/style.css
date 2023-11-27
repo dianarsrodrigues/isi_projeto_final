@@ -139,3 +139,8 @@ a {
 .alert {
     margin-top: 20px;
 }
+
+.formulario-allbands {
+    display: flex;
+    justify-content: end;
+}

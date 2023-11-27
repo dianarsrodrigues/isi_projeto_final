@@ -11,6 +11,11 @@ class BandsController extends Controller
 {
     public function getAll() {
         $bands = $this->allBands();
+        $search = request()->query('search') ? request()->query('search') : null;
+
+        if ($search) {
+            $bands = Band::where('name', "LIKE", "%{$search}%")->get();
+        }
         return view('bands.all_bands', compact('bands'));
     }
 
